@@ -143,7 +143,7 @@ function App() {
 
 
         {/* Catch all route - redirect to landing */}
-        <Route path="*" element={<Navigate to="/" replace />} />
+        {/* <Route path="*" element={<Navigate to="/" replace />} /> */}
       </Routes>
     </div>
   )
