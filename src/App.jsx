@@ -23,11 +23,26 @@ function App() {
       <Routes>
         {/* Public Routes - Landing/Auth */}
         <Route path="/" element={
-          <div>
-            {/* <AutoRedirect /> */}
-            <UserTypeSelector />
+          <div style={{ padding: '20px' }}>
+            <h2>Demo Navigation</h2>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', maxWidth: '300px' }}>
+              <a href="/dashboard">User Dashboard</a>
+              <a href="/payment">Payment Page</a>
+              <a href="/showcase">Showcase</a>
+              <a href="/bookings">My Bookings</a>
+              <a href="/photographer/dashboard">Photographer Dashboard</a>
+              <a href="/photographer/reviews">Reviews</a>
+              <a href="/photographer/earnings">Earnings</a>
+              <a href="/photographer/bookings">Photographer Bookings</a>
+            </div>
           </div>
         } />
+        {/* <Route path="/" element={
+          <div>
+            <AutoRedirect />
+            <UserTypeSelector />
+          </div>
+        } /> */}
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
         <Route path="/user/login" element={<UserLogin />} />
@@ -124,22 +139,6 @@ function App() {
           </ProtectedRoute>
         } />
         */}
-
-        <Route path="/demo" element={
-          <div style={{ padding: '20px' }}>
-            <h2>Demo Navigation</h2>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', maxWidth: '300px' }}>
-              <a href="/dashboard">User Dashboard</a>
-              <a href="/payment">Payment Page</a>
-              <a href="/showcase">Showcase</a>
-              <a href="/bookings">My Bookings</a>
-              <a href="/photographer/dashboard">Photographer Dashboard</a>
-              <a href="/photographer/reviews">Reviews</a>
-              <a href="/photographer/earnings">Earnings</a>
-              <a href="/photographer/bookings">Photographer Bookings</a>
-            </div>
-          </div>
-        } />
 
 
         {/* Catch all route - redirect to landing */}
