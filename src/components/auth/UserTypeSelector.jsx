@@ -25,7 +25,7 @@ function UserTypeSelector() {
   return (
     <div className={`flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 px-4 py-8 transition-opacity duration-500 ${isExiting ? "opacity-0" : "opacity-100"}`}>
       <div className="text-center mb-10 animate-fade-in">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Welcome to Capture Moments</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Welcome to LensoraCapture Moments</h1>
         <p className="text-gray-600 max-w-2xl mx-auto text-lg">
           Whether you're looking to preserve memories or showcase your creative talent, 
           we're here to help you every step of the way.
