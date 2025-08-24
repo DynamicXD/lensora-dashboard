@@ -15,14 +15,14 @@ import Reviews from './components/photographer/Reviews'
 import EarningsDashboard from './components/photographer/Earnings'
 import PhotographerBookings from './components/photographer/PhotographerBooking'
 import MyBookings from './components/user/MyBookings'
-import AutoRedirect from './components/AutoRedirect'
+// import AutoRedirect from './components/AutoRedirect'
 
 function App() {
   return (
     <div className="App">
       <Routes>
         {/* Public Routes - Landing/Auth */}
-        <Route path="/" element={
+        <Route path="/demo" element={
           <div style={{ padding: '20px' }}>
             <h2>Demo Navigation</h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', maxWidth: '300px' }}>
@@ -37,12 +37,12 @@ function App() {
             </div>
           </div>
         } />
-        {/* <Route path="/" element={
+        <Route path="/" element={
           <div>
-            <AutoRedirect />
+            {/* <AutoRedirect /> */}
             <UserTypeSelector />
           </div>
-        } /> */}
+        } />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
         <Route path="/user/login" element={<UserLogin />} />
