@@ -24,7 +24,7 @@ function App() {
         {/* Public Routes - Landing/Auth */}
         <Route path="/" element={
           <div>
-            <AutoRedirect />
+            {/* <AutoRedirect /> */}
             <UserTypeSelector />
           </div>
         } />
