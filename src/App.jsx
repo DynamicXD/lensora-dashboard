@@ -125,7 +125,6 @@ function App() {
         } />
         */}
 
-        // Add this route for easy navigation
         <Route path="/demo" element={
           <div style={{ padding: '20px' }}>
             <h2>Demo Navigation</h2>

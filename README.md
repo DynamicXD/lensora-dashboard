@@ -6,19 +6,6 @@
 1. Visit the live demo: [https://lensora.netlify.app](https://lensora.netlify.app)
 2. Use these sample credentials (or skip login entirely):
 
-### Sample Login Credentials
-```
-Email: demo@lensora.com
-Password: demo123
-```
-
-**OR**
-
-```
-Email: judge@evaluation.com  
-Password: judge2025
-```
-
 ## Navigation Guide
 
 ### For Judges - Direct Page Access
