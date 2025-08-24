@@ -31,7 +31,7 @@ const Navbar = () => {
         return;
       }
 
-      const response = await axios.get('http://localhost:5000/api/auth/me', {
+      const response = await axios.get('https://lensora-api.vercel.app/api/auth/me', {
         headers: {
           Authorization: `Bearer ${token}`
         }

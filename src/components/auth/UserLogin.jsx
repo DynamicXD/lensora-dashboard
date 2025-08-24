@@ -98,7 +98,7 @@ function UserLogin() {
 
     try {
       // Call your login API
-      const response = await axios.post('http://localhost:5000/api/auth/login', {
+      const response = await axios.post('https://lensora-api.vercel.app/api/auth/login', {
         email: formData.email,
         password: formData.password
       });
