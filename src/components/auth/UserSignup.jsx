@@ -72,7 +72,7 @@ function UserSignup() {
         role: 'user'
       };
 
-      const response = await axios.post('https://lensora-api.vercel.app/api/auth/register', payload);
+      const response = await axios.post('https://lensora-api.onrender.com/api/auth/register', payload);
 
       if (response.status === 201 || response.status === 200) {
         if (response.data.token) {
